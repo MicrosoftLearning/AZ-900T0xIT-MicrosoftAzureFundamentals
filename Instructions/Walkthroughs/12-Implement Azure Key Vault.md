@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '12. Implementare Azure Key Vault (5 min)'
-    module: 'Modulo 04. Descrizione delle funzionalità di sicurezza generali e di rete'
+    title: '12 - Implementare Azure Key Vault (5 min)'
+    module: 'Modulo 04: Descrizione delle funzionalità di sicurezza generali e di rete'
 ---
-# 12. Implementare Azure Key Vault
+# 12 - Implementare Azure Key Vault
 
 In questa procedura dettagliata verrà creata un'istanza di Azure Key Vault al cui interno verrà creato un segreto che rende disponibile una password gestita centralmente e archiviata in modo sicuro da usare con le applicazioni.
 

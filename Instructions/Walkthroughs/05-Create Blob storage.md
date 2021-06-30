@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '05. Creare un account di archiviazione BLOB (5 min)'
-    module: 'Modulo 02. Descrizione dei servizi principali di Azure (carichi di lavoro)'
+    title: '05 - Creare un account di archiviazione BLOB (5 min)'
+    module: 'Modulo 02 - Descrizione dei servizi principali di Azure (carichi di lavoro)'
 ---
-# 05. Creare un account di archiviazione BLOB
+# 05 - Creare un account di archiviazione BLOB
 
 In questa procedura dettagliata verrà creato un account di archiviazione e quindi si useranno i file di archiviazione BLOB.
 

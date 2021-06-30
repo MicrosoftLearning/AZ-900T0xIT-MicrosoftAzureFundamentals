@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '18. Esplorare il Centro protezione (5 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '18 - Esplorare il Centro protezione (5 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 18. Esplorare il Centro protezione
+# 18 - Esplorare il Centro protezione
 
 In questa procedura dettagliata si accederà al Centro protezione, al sito Service Trust Portal (STP) e a Compliance Manager.
 

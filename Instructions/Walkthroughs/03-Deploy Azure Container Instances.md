@@ -1,10 +1,10 @@
 ---
 wts:
-    title: '03. Distribuire Istanze di Azure Container (10 min)'
-    module: 'Modulo 02. Descrizione dei servizi principali di Azure (carichi di lavoro)'
+    title: '03 - Distribuire Istanze di Azure Container (10 min)'
+    module: 'Modulo 02 - Descrizione dei servizi principali di Azure (carichi di lavoro)'
 ---
 
-# 03. Distribuire Istanze di Azure Container
+# 03 - Distribuire Istanze di Azure Container
 
 In questa procedura dettagliata verrà illustrato come creare, configurare e distribuire un contenitore Docker tramite Istanze di Azure Container nel portale di Azure. Il contenitore è un'applicazione Web Benvenuto in Istanze di Azure Container che visualizza una pagina HTML statica. 
 

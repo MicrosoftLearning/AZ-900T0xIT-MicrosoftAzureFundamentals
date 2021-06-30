@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '16. Implementare l'assegnazione di tag alle risorse (5 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '16 - Implementare l'assegnazione di tag alle risorse (5 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 16. Implementare l'assegnazione di tag alle risorse
+# 16 - Implementare l'assegnazione di tag alle risorse
 
 In questa procedura dettagliata verrà creato un criterio che richiede l'assegnazione di tag, verrà creato un account di archiviazione e verrà verificata l'assegnazione di tag, quindi verranno visualizzate le risorse con un tag specificato e infine verrà rimosso il criterio di assegnazione di tag.
 

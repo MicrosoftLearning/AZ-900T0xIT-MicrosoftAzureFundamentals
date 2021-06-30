@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '15. Gestire i blocchi delle risorse (5 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '15 - Gestire i blocchi delle risorse (5 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 15. Gestire i blocchi delle risorse
+# 15 - Gestire i blocchi delle risorse
 
 In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e ne verrà verificata l'eliminazione. In una sottoscrizione è possibile applicare blocchi a gruppi di risorse o a singole risorse per evitare l'eliminazione o la modifica accidentale di risorse critiche.  
 

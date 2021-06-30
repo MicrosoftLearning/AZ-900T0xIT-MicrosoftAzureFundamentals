@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '10. Creare una VM con PowerShell (10 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '10 - Creare una VM con PowerShell (10 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 10. Creare una VM con PowerShell
+# 10 - Creare una VM con PowerShell
 
 In questa procedura dettagliata verrà configurato Cloud Shell, verrà usato il modulo Azure PowerShell per creare un gruppo di risorse e una macchina virtuale, quindi verranno esaminate le raccomandazioni di Azure Advisor. 
 

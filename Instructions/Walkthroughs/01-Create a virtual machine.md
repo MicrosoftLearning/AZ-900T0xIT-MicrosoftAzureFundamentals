@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '01. Creare una macchina virtuale nel portale (10 min)'
-    module: 'Modulo 02. Descrizione dei servizi principali di Azure (carichi di lavoro)'
+    title: '01 - Creare una macchina virtuale nel portale (10 min)'
+    module: 'Modulo 02 - Descrizione dei servizi principali di Azure (carichi di lavoro)'
 ---
-# 01. Creare una macchina virtuale nel portale
+# 01 - Creare una macchina virtuale nel portale
 
 In questa procedura dettagliata verrà creata una macchina virtuale in Azure a cui ci si connetterà, quindi verrà installato e testato il ruolo del server Web. 
 
@@ -13,7 +13,7 @@ In questa procedura dettagliata verrà creata una macchina virtuale in Azure a c
 
 In questa attività verrà creata una macchina virtuale Windows Server 2019 Datacenter - Gen1. 
 
-1. Accedere al [portale di Azure (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
+1. Accedere al portale di Azure [(https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
 
 2. Nel pannello **Tutti i servizi** cercare e selezionare **Macchine virtuali**, quindi fare clic su **+ Aggiungi** e scegliere **+ Macchina virtuale**.
 

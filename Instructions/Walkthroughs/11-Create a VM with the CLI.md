@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '11. Creare una macchina virtuale con l'interfaccia della riga di comando (10 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '11 - Creare una macchina virtuale con l'interfaccia della riga di comando (10 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 11. Creare una macchina virtuale con l'interfaccia della riga di comando
+# 11 - Creare una macchina virtuale con l'interfaccia della riga di comando
 
 In questa procedura dettagliata verrà configurato Cloud Shell, verrà usata l'interfaccia della riga di comando di Azure per creare un gruppo di risorse e una macchina virtuale, quindi verranno esaminate le raccomandazioni di Azure Advisor. 
 

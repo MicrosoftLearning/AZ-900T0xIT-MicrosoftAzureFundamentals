@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '17. Creare un'istanza di Criteri di Azure (10 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '17 - Creare un'istanza di Criteri di Azure (10 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 17. Creare un'istanza di Criteri di Azure
+# 17 - Creare un'istanza di Criteri di Azure
 
 In questa procedura dettagliata verrà creata un'istanza di Criteri di Azure per limitare la distribuzione delle risorse di Azure a una località specifica.
 

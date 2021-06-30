@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '08. Implementare Funzioni di Azure (5 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '08 - Implementare Funzioni di Azure (5 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 08. Implementare Funzioni di Azure
+# 08 - Implementare Funzioni di Azure
 
 In questa procedura dettagliata verrà creata un'app per le funzioni per visualizzare un messaggio di benvenuto quando viene effettuata una richiesta HTTP. 
 

@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '09. Creare una VM con un modello (10 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '09 - Creare una VM con un modello (10 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 09. Creare una VM con un modello
+# 09 - Creare una VM con un modello
 
 In questa procedura dettagliata verrà distribuita una macchina virtuale con un modello di avvio rapido e verranno esaminate le funzionalità di monitoraggio.
 

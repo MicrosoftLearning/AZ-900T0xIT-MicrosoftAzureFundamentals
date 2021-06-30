@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '22. Aprire una richiesta di supporto (5 min)'
+    title: '22 - Aprire una richiesta di supporto (5 min)'
     module: 'Attualmente non utilizzato nell'esame corrente'
 ---
-# 22. Aprire una richiesta di supporto
+# 22 - Aprire una richiesta di supporto
 
 In questa procedura dettagliata verranno visualizzate le opzioni disponibili dei piani di supporto e quindi ci si eserciterà con la creazione e il monitoraggio di una nuova richiesta di supporto.
 

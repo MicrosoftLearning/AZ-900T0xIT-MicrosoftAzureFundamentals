@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '07. Implementare un hub IoT di Azure (10 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '07 - Implementare un hub IoT di Azure (10 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 07. Implementare un hub IoT di Azure
+# 07 - Implementare un hub IoT di Azure
 
 In questa procedura dettagliata verrà configurato un nuovo hub IoT di Azure nel portale di Azure, quindi verrà autenticata una connessione a un dispositivo IoT tramite il simulatore di dispositivi online Raspberry Pi. I dati e i messaggi dei sensori vengono passati dal simulatore Raspberry Pi all'hub IoT di Azure ed è possibile visualizzare le metriche relative ai messaggi nel portale di Azure.
 

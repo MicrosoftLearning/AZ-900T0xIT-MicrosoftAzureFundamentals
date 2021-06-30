@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '21. Calcolare i contratti di servizio compositi (5 min)'
-    module: 'Modulo 06. Descrizione di Gestione costi di Azure e Contratti di servizio'
+    title: '21 - Calcolare i contratti di servizio compositi (5 min)'
+    module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
-# 21. Calcolare i contratti di servizio compositi
+# 21 - Calcolare i contratti di servizio compositi
 
 In questa procedura dettagliata verrà determinata la disponibilità di contratti di servizio per i servizi di Azure e quindi verrà calcolata la disponibilità prevista basata sul contratto di servizio composito per un'applicazione.
 

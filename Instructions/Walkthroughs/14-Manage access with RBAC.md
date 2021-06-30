@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '14. Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '14 - Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 14. Gestire l'accesso con il controllo degli accessi in base al ruolo
+# 14 - Gestire l'accesso con il controllo degli accessi in base al ruolo
 
 In questa procedura dettagliata verranno assegnati ruoli e verranno visualizzati i log attività. 
 

@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '19. Usare il Calcolatore dei prezzi di Azure (10 min)'
-    module: 'Modulo 06. Descrizione di Gestione costi di Azure e Contratti di servizio'
+    title: '19 - Usare il Calcolatore dei prezzi di Azure (10 min)'
+    module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
 # 19. Usare il Calcolatore dei prezzi
 

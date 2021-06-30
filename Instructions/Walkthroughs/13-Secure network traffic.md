@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '13. Proteggere il traffico di rete (10 min)'
-    module: 'Modulo 04. Descrizione delle funzionalità di sicurezza generali e di rete'
+    title: '13 - Proteggere il traffico di rete (10 min)'
+    module: 'Modulo 04: Descrizione delle funzionalità di sicurezza generali e di rete'
 ---
-# 13. Proteggere il traffico di rete
+# 13 - Proteggere il traffico di rete
 
 In questa procedura dettagliata verrà configurato un gruppo di sicurezza di rete.
 

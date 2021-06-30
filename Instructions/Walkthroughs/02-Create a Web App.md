@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '02. Creare un'app Web (10 min)'
-    module: 'Modulo 02. Descrizione dei servizi principali di Azure (carichi di lavoro)'
+    title: '02 - Creare un'app Web (10 min)'
+    module: 'Modulo 02 - Descrizione dei servizi principali di Azure (carichi di lavoro)'
 ---
-# 02. Creare un'app Web
+# 02 - Creare un'app Web
 
 In questa procedura dettagliata verrà creata una nuova app Web che esegue un contenitore Docker. Il contenitore visualizza un messaggio di benvenuto. 
 

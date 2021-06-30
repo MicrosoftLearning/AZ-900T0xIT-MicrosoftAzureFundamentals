@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '20. Usare il Calcolatore del costo totale di proprietà di Azure (10 min)'
-    module: 'Modulo 06. Descrizione di Gestione costi di Azure e Contratti di servizio'
+    title: '20 - Usare il Calcolatore del costo totale di proprietà di Azure (10 min)'
+    module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
-# 20. Usare il Calcolatore del costo totale di proprietà di Azure
+# 20 - Usare il Calcolatore del costo totale di proprietà di Azure
 
 
 In questa procedura dettagliata verrà usato il Calcolatore del costo totale di proprietà (TCO) per generare un report di confronto sui costi per un ambiente locale.

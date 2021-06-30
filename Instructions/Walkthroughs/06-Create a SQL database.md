@@ -1,10 +1,10 @@
 ---
 wts:
-    title: '06. Creare un database SQL (5 min)'
-    module: 'Modulo 02. Descrizione dei servizi principali di Azure (carichi di lavoro)'
+    title: '06 - Creare un database SQL (5 min)'
+    module: 'Modulo 02 - Descrizione dei servizi principali di Azure (carichi di lavoro)'
 ---
 
-# 06. Creare un database SQL
+# 06 - Creare un database SQL
 
 In questa procedura dettagliata verrà creato un database SQL in Azure e quindi verrà eseguita una query sui relativi dati.
 
