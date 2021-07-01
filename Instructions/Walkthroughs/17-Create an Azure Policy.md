@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '17 - Creare un'istanza di Criteri di Azure (10 min)'
+    title: '17 - Creare un’istanza di Criteri di Azure (10 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
 # 17 - Creare un'istanza di Criteri di Azure

@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '11 - Creare una macchina virtuale con l'interfaccia della riga di comando (10 min)'
+    title: '11 - Creare una macchina virtuale con l’interfaccia della riga di comando (10 min)'
     module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
 # 11 - Creare una macchina virtuale con l'interfaccia della riga di comando

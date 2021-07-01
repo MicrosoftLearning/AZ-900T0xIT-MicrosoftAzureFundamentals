@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '16 - Implementare l'assegnazione di tag alle risorse (5 min)'
+    title: '16 - Implementare l’assegnazione di tag alle risorse (5 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
 # 16 - Implementare l'assegnazione di tag alle risorse
