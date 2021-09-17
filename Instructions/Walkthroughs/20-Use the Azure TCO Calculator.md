@@ -3,14 +3,14 @@ wts:
     title: '20 - Usare il Calcolatore del costo totale di proprietà di Azure (10 min)'
     module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
-# 20 - Usare il Calcolatore del costo totale di proprietà di Azure
+# 20. Usare il Calcolatore del costo totale di proprietà di Azure (10 min)
 
 
 In questa procedura dettagliata verrà usato il Calcolatore del costo totale di proprietà (TCO) per generare un report di confronto sui costi per un ambiente locale.
 
 **Nota**: questa procedura dettagliata include definizioni di esempio di un'infrastruttura locale e dei carichi di lavoro per una tipico data center. Per creare un report del calcolatore del costo totale di proprietà, usare le definizioni di esempio oppure fornire i dettagli dell'infrastruttura locale e dei carichi di lavoro *effettivi*.
 
-# Attività 1. Configurare il Calcolatore del costo totale di proprietà (10 min)
+# Attività 1. Configurare il Calcolatore del costo totale di proprietà (TCO)
 
 In questa attività verranno aggiunte informazioni sull'infrastruttura nel calcolatore. 
 
@@ -30,7 +30,6 @@ In questa attività verranno aggiunte informazioni sull'infrastruttura nel calco
     | RAM (GB) | **16** |
     | Ottimizza in base a | **CPU** |
     | Windows Server 2008/2008 R2 | **No** |
-    | | |
 
 3. Selezionare **+ Aggiungi il carico di lavoro del server** per creare una riga per una nuova definizione di carichi di lavoro del server. 
 
@@ -46,7 +45,6 @@ In questa attività verranno aggiunte informazioni sull'infrastruttura nel calco
     | RAM (GB) | **16** |
     | Ottimizza in base a | **CPU** |
     | Windows Server 2008/2008 R2 | **No** |
-    | | |
 
 4. Nel riquadro **Archiviazione** fare clic su **Aggiungi le risorse di archiviazione**.
 
@@ -58,14 +56,12 @@ In questa attività verranno aggiunte informazioni sull'infrastruttura nel calco
     | Capacità | **60 TB** |  
     | Backup | **120 TB** |
     | Archivio | **0 TB** |
-    | | |
 
 5. Nel riquadro **Rete** aggiungere larghezza di banda. 
 
     | Impostazioni | Valore |
     | -- | -- |
     | Larghezza di banda in uscita | 15 TB|
-    | | |
 
 6. Fare clic su **Successivi**.
 
@@ -74,7 +70,6 @@ In questa attività verranno aggiunte informazioni sull'infrastruttura nel calco
     | Impostazioni | Valore |
     | -- | -- |
     | Valuta | **Euro** |
-    | | |
 
 8. Fare clic su **Successivi**.
 
@@ -88,8 +83,6 @@ In questa attività verranno esaminate le raccomandazioni per il risparmio sui c
     | -- | -- |
     | Intervallo di tempo| **3 anni** |
     | Area | **Europa settentrionale** |
-    | | |
-
 
 2. Per modificare le informazioni specificate, passare alla fine della pagina e fare clic su **Indietro**. 
 

@@ -3,11 +3,11 @@ wts:
     title: '22 - Aprire una richiesta di supporto (5 min)'
     module: 'Attualmente non utilizzato nell'esame corrente'
 ---
-# 22 - Aprire una richiesta di supporto
+# 22. Aprire una richiesta di supporto (5 min)
 
 In questa procedura dettagliata verranno visualizzate le opzioni disponibili dei piani di supporto e quindi ci si eserciterà con la creazione e il monitoraggio di una nuova richiesta di supporto.
 
-# Attività 1. Visualizzare le opzioni disponibili dei piani di supporto e una richiesta di supporto tecnico (5 min)
+# Attività 1. Visualizzare le opzioni disponibili dei piani di supporto e una richiesta di supporto tecnico
 
 1. Accedere al [**portale di Azure**](https://portal.azure.com).
 
@@ -44,13 +44,12 @@ In questa procedura dettagliata verranno visualizzate le opzioni disponibili dei
     | Riepilogo | **L'addebito mensile non è corretto** |
     | Tipo di problema | **Prezzi** |
     | Sottotipo del problema | **Informazioni sui prezzi dei servizi** |    
-    | | |
 
 2. Fare clic su **Avanti: Soluzioni** e scorrere le soluzioni consigliate.
 
 3. Fare clic su **Avanti: Dettagli**.  Quando si invia una richiesta di supporto effettiva è necessario fornire il maggior numero di informazioni possibile per consentire una risoluzione rapida del problema. 
 
-    **Nota:** la procedura dettagliata si ferma a questo punto. Si è compreso come inviare una richiesta di supporto?
+    **Nota:** la procedura dettagliata si FERMA a questo punto. Si è compreso come inviare una richiesta di supporto?
 
 4. Fare clic su **Tutte le richieste di supporto**. Verranno visualizzate le richieste si supporto. Verrà inoltre inviato un messaggio e-mail al proprio indirizzo con i dettagli della richiesta di supporto.
 

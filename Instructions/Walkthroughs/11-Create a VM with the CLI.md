@@ -3,29 +3,33 @@ wts:
     title: '11 - Creare una macchina virtuale con l’interfaccia della riga di comando (10 min)'
     module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 11 - Creare una macchina virtuale con l'interfaccia della riga di comando
+# 11. Creare una macchina virtuale con l'interfaccia della riga di comando (10 min)
 
 In questa procedura dettagliata verrà configurato Cloud Shell, verrà usata l'interfaccia della riga di comando di Azure per creare un gruppo di risorse e una macchina virtuale, quindi verranno esaminate le raccomandazioni di Azure Advisor. 
 
-# Attività 1. Configurare Cloud Shell (10 min)
+# Attività 1. Configurare Cloud Shell 
 
-In questa attività verrà configurato Cloud Shell. 
+In questa attività, verrà configurato Cloud Shell, quindi si userà l'interfaccia della riga di comando di Azure per creare un gruppo di risorse e una macchina virtuale.  
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
 2. Nel portale di Azure aprire **Azure Cloud Shell** facendo clic sull'icona nell'angolo in alto a destra.
 
     ![Screenshot dell'icona Azure Cloud Shell nel portale di Azure.](../images/1002.png)
+   
+3. Nella finestra di dialogo Benvenuti in Azure Cloud Shell, quando viene richiesto di selezionare **Bash** o **PowerShell**, selezionare **Bash**. 
 
-3. Se Cloud Shell è già stato usato in precedenza, procedere con l'attività successiva. 
+4. Si apre una nuova finestra con il messaggio **Non sono state montate risorse di archiviazione**. Selezionare **impostazioni avanzate**.
 
-4. Quando viene chiesto di selezionare **Bash** o **PowerShell**, selezionare **Bash**. 
+5. Nella schermata delle impostazioni avanzate, riempire i seguenti campi, quindi fare clic su Crea risorse di archiviazione:
+    - Gruppo di risorse: **Crea nuovo gruppo di risorse**
+    - Account di archiviazione: Creare un nuovo account di archiviazione e usare un nome che sia univoco a livello globale (ad esempio: cloudshellstoragemystorage)
+    - Condivisione file: Creare un nuovo file con il nome cloudshellfileshare
 
-5. Quando richiesto, fare clic su **Crea risorsa di archiviazione** e attendere l'inizializzazione di Azure Cloud Shell. 
 
-# Attività 2. Creare un gruppo di risorse e una macchina virtuale
+# Attività 2. Usare l'interfaccia della riga di comando per creare una macchina virtuale
 
-In questa attività verranno creati un gruppo di risorse e una macchina virtuale con l'interfaccia della riga di comando di Azure.  
+In questa attività verranno creati un gruppo di risorse e una macchina virtuale con l'interfaccia della riga di comando di Azure.
 
 1. Assicurarsi che nel menu a discesa nell'angolo in alto a sinistra del riquadro Cloud Shell sia selezionato **Bash** (in caso contrario, selezionarlo).
 
@@ -43,20 +47,20 @@ In questa attività verranno creati un gruppo di risorse e una macchina virtuale
     az group list --output table
     ```
 
-4. Creare una nuova macchina virtuale. Assicurarsi di includere il carattere barra rovesciata (`\`) alla fine di ogni riga ad eccezione dell'ultima. Se si digita l'intero comando sulla stessa riga, non usare questi caratteri. 
+4. In Cloud Shell, immettere i comando sotto riportato e accertarsi che ciascuna riga, eccetto l'ultima, sia seguita da una barra retroversa ('\'). Se si digita l'intero comando sulla stessa riga, non usare questi caratteri. 
 
     ```cli
     az vm create \
     --name myVMCLI \
     --resource-group myRGCLI \
     --image UbuntuLTS \
-    --location EastUS \
+    --location EastUS2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
     ```
 
     >**Nota**: se si usa la riga di comando in un computer Windows, sostituire il carattere barra rovesciata (`\`) con il carattere accento circonflesso (`^`).
-    
+
     **Nota**: il completamento del comando richiede da 2 a 3 minuti. Il comando creerà una macchina virtuale e varie risorse associate, ad esempio di archiviazione, rete e sicurezza. Non continuare con il passaggio successivo finché non viene completata la distribuzione della macchina virtuale. 
 
 5. Al termine dell'esecuzione del comando, nella finestra del browser chiudere il riquadro Cloud Shell.

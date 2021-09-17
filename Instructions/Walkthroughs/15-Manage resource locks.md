@@ -3,25 +3,30 @@ wts:
     title: '15 - Gestire i blocchi delle risorse (5 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 15 - Gestire i blocchi delle risorse
+# 15. Gestire i blocchi delle risorse (5 min)
 
 In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e ne verrà verificata l'eliminazione. In una sottoscrizione è possibile applicare blocchi a gruppi di risorse o a singole risorse per evitare l'eliminazione o la modifica accidentale di risorse critiche.  
 
-# Attività 1. Creare un gruppo di risorse (5 min)
+# Attività 1. Creare un gruppo di risorse 
 
 In questa attività verrà creato un gruppo di risorse per questo esercizio. 
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nella barra **Cerca** nella parte superiore del portale immettere **Gruppi di risorse**. 
+2. Nel pannello **Tutti i servizi** cercare e selezionare **Gruppi di risorse**, quindi fare clic su **+ Aggiungi**, **+ Crea** o **+ Nuovo**.
 
-3. Quindi fare clic su **+Aggiungi, +Nuovo oppure +Crea**. 
+3. Creare un nuovo gruppo di risorse. Al termine, fare clic su **Crea**. 
 
     | Impostazione | Valore |
     | -- | -- |
-    | Sottoscrizione | **Usare la propria sottoscrizione** |
-    | Nome | **myRGLocks** |
+    | Sottoscrizione | **Scegliere le propria sottoscrizione** |
+    | Gruppo di risorse | **myRGLocks** |
     | Area | **(Stati Uniti) Stati Uniti orientali** |
+    | | |
+
+4. Fare clic su **Rivedi e crea** e quindi su **Crea**.
+
+5. Scegliere **Aggiorna** per aggiornare la pagina del gruppo di risorse, quindi fare clic sulla voce che rappresenta il nuovo gruppo di risorse creato.
     
 
 # Attività 2.  Aggiungere un blocco al gruppo di risorse per verificarne l'eliminazione
@@ -40,7 +45,7 @@ In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e
 
     | Impostazione | Valore |
     | -- | -- |
-    | Nome del blocco | **RGLock** |
+    | Nome del blocco | '''RGLock''' |
     | Tipo di blocco | **Eliminazione** |
     | | |
 

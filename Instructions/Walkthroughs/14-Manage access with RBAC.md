@@ -3,26 +3,26 @@ wts:
     title: '14 - Gestire l’accesso con il controllo degli accessi in base al ruolo (5 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 14 - Gestire l'accesso con il controllo degli accessi in base al ruolo
+# 14. Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)
 
-In questa procedura dettagliata verranno assegnati ruoli e verranno visualizzati i log attività. 
+In questa procedura dettagliata verranno assegnati ruoli di autorizzazione alle risorse e verranno visualizzati i log.
 
-# Attività 1. Visualizzare e assegnare ruoli (5 min)
+# Attività 1. Visualizzare e assegnare i ruoli
 
 In questa attività verrà assegnato il ruolo Collaboratore Macchina virtuale. 
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel pannello **Tutti i servizi** cercare e selezionare **Gruppi di risorse**, quindi fare clic su **+ Aggiungi, + Crea oppure + Nuovo**.
+2. Nel pannello **Tutti i servizi** cercare e selezionare **Gruppi di risorse**, quindi fare clic su **+ Aggiungi + Nuovo + Crea**.
 
 3. Creare un nuovo gruppo di risorse. Al termine, fare clic su **Crea**. 
 
     | Impostazione | Valore |
     | -- | -- |
-    | Sottoscrizione | **Scegliere le propria sottoscrizione** |
+    | Sottoscrizione | **Usare l'impostazione predefinita fornita** |
     | Gruppo di risorse | **myRGRBAC** |
     | Area | **(Stati Uniti) Stati Uniti orientali** |
-    | | |
+   
 
 4. Fare clic su **Rivedi e crea** e quindi su **Crea**.
 
@@ -38,8 +38,8 @@ In questa attività verrà assegnato il ruolo Collaboratore Macchina virtuale.
     | -- | -- |
     | Ruolo | **Collaboratore Macchina virtuale** |
     | Assegnare l'accesso a | **utente, gruppo o entità servizio** |
-    | Selezionare | il proprio account utente |
-    | | |
+    | Selezionare | **Aggiungi account utente** |
+ 
 
     **Nota:** il ruolo Collaboratore Macchina virtuale consente di gestire le macchine virtuali, ma non di accedere al relativo sistema operativo né di gestire la rete virtuale e l'account di archiviazione a cui sono connesse.
 
@@ -63,8 +63,7 @@ In questa attività verrà visualizzato il log attività per verificare l'assegn
 
     **Nota**: si riesce a capire come rimuovere l'assegnazione di ruolo?
 
-Congratulazioni! Sono stati assegnati ruoli e sono stati visualizzati i log attività. 
+Congratulazioni! È stato creato un gruppo di risorse, gli è stato assegnato un ruolo di accesso e sono stati visualizzati i log attività. 
 
 **Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
-
 
