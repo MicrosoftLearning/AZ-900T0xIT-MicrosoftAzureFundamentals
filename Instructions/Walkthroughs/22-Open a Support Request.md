@@ -1,7 +1,7 @@
 ---
 wts:
     title: '22 - Aprire una richiesta di supporto (5 min)'
-    module: 'Attualmente non utilizzato nell'esame corrente'
+    module: 'Attualmente non utilizzato nell’esame corrente'
 ---
 # 22. Aprire una richiesta di supporto (5 min)
 

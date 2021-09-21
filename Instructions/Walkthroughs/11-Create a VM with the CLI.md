@@ -47,7 +47,7 @@ In questa attività verranno creati un gruppo di risorse e una macchina virtuale
     az group list --output table
     ```
 
-4. In Cloud Shell, immettere i comando sotto riportato e accertarsi che ciascuna riga, eccetto l'ultima, sia seguita da una barra retroversa ('\'). Se si digita l'intero comando sulla stessa riga, non usare questi caratteri. 
+4. In Cloud Shell, immettere i comando sotto riportato e accertarsi che ciascuna riga, eccetto l'ultima, sia seguita da una barra retroversa (`\`). Se si digita l'intero comando sulla stessa riga, non usare questi caratteri. 
 
     ```cli
     az vm create \

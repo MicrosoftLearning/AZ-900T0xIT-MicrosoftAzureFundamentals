@@ -23,7 +23,7 @@ In questa attività verrà creato il criterio per le località consentite, che v
 
       | Impostazione | Valore | 
     | --- | --- |
-    | Scope| ** Usare l'impostazione predefinita selezionata**|
+    | Scope| **Usare l'impostazione predefinita selezionata**|
     | Definizione del criterio | fare clic sui puntini sospensivi, cercare **Località consentite**, quindi fare clic su **Seleziona** |
     | Nome assegnazione | **Località consentite** |
     

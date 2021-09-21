@@ -20,7 +20,7 @@ In questa attività verrà creata una nuova istanza di contenitore per l'applica
 
 	| Impostazione| Valore|
 	|----|----|
-	| Sottoscrizione | *** Usare l'impostazione predefinita fornita*** |
+	| Sottoscrizione | ***Usare l'impostazione predefinita fornita***|
 	| Gruppo di risorse | **Crea nuovo gruppo di risorse** |
 	| Nome contenitore| **mycontainer**|
 	| Area | **(Stati Uniti) Stati Uniti orientali** |
@@ -31,14 +31,14 @@ In questa attività verrà creata una nuova istanza di contenitore per l'applica
 	| Dimensioni| ***Lasciare il valore predefinito***|
 
 
-4. Configurare la scheda Rete (sostituire **xxxx** con lettere e numeri in modo che il nome sia univoco a livello globale). Lasciare i valori predefiniti per tutte le altre impostazioni.
+4. Configurare la scheda Rete (sostituire **xxxxx** con lettere e numeri in modo che il nome sia univoco a livello globale). Lasciare i valori predefiniti per tutte le altre impostazioni.
 
 	| Impostazione| Valore|
 	|--|--|
 	| Etichetta del nome DNS| **mycontainerdnsxxxxx** |
 
 	
-	**Nota**: il contenitore sarà raggiungibile pubblicamente all'indirizzo dns-name-label.region.azurecontainer.io. Se dopo la distribuzione si riceve il messaggio di errore **L'etichetta del nome DNS non è disponibile**, specificare un'etichetta del nome DNS diversa (in sostituzione di xxxx) e ripetere la distribuzione. 
+	**Nota**: il contenitore sarà raggiungibile pubblicamente all'indirizzo dns-name-label.region.azurecontainer.io. Se dopo la distribuzione si riceve il messaggio di errore **L'etichetta del nome DNS non è disponibile**, specificare un'etichetta del nome DNS diversa (in sostituzione di xxxxx) e ripetere la distribuzione. 
 
 5. Fare clic su **Rivedi e crea** per avviare il processo automatico di convalida.
 

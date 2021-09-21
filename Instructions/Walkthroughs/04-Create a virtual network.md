@@ -49,7 +49,7 @@ In questa attività verranno create due macchine virtuali nella rete virtuale.
    | Selezionare le porte in ingresso| **RDP (3389)** |
    
 
-3. Selezionare la scheda **Rete**. Accertarsi che la macchina virtuale venga inserita nella rete virtuale vnet1. Esaminare le impostazioni predefinite, ma non apportare altre modifiche. 
+3. Selezionare la scheda **Rete**. Accertarsi che la macchina virtuale venga inserita nella rete virtuale **vnet1**. Esaminare le impostazioni predefinite, ma non apportare altre modifiche. 
 
 4. Fare clic su **Rivedi e crea**. Una volta superata la convalida, fare clic su **Crea**. I tempi di distribuzione variano, ma in genere sono necessari da tre a sei minuti.
 
