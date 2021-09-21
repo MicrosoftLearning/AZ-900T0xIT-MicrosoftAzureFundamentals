@@ -3,7 +3,7 @@ wts:
     title: '21 - Calcolare i contratti di servizio compositi (5 min)'
     module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
-# 21 - Calcolare i contratti di servizio compositi
+# 21. Calcolare i Contratti di servizio compositi (5 min)
 
 In questa procedura dettagliata verrà determinata la disponibilità di contratti di servizio per i servizi di Azure e quindi verrà calcolata la disponibilità prevista basata sul contratto di servizio composito per un'applicazione.
 
@@ -14,7 +14,7 @@ L'applicazione di esempio è costituita da questi servizi di Azure. Non verranno
 + **Gateway applicazione**: per gestire l'accesso all'applicazione e la scalabilità. 
 + **Database SQL di Azure**: per archiviare i dati dell'applicazione. 
 
-# Attività 1. Determinare i valori in percentuale del tempo di attività del contratto di servizio per l'applicazione (5 min)
+# Attività 1. Determinare i valori in percentuale del tempo di attività del Contratto di servizio per l'applicazione
 
 1. In un browser passare alla pagina [Riepilogo dei contratti di servizio per i servizi di Azure](https://azure.microsoft.com/it-it/support/legal/sla/summary/).
 

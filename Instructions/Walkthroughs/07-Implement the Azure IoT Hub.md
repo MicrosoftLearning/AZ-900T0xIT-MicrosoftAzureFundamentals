@@ -3,29 +3,28 @@ wts:
     title: '07 - Implementare un hub IoT di Azure (10 min)'
     module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 07 - Implementare un hub IoT di Azure
+# 07. Implementare un hub IoT di Azure (10 min)
 
 In questa procedura dettagliata verrà configurato un nuovo hub IoT di Azure nel portale di Azure, quindi verrà autenticata una connessione a un dispositivo IoT tramite il simulatore di dispositivi online Raspberry Pi. I dati e i messaggi dei sensori vengono passati dal simulatore Raspberry Pi all'hub IoT di Azure ed è possibile visualizzare le metriche relative ai messaggi nel portale di Azure.
 
-# Attività 1. Creare un hub IoT (10 min)
+# Attività 1. Creare un hub IoT 
 
 In questa attività verrà creato un hub IoT. 
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel pannello **Tutti i servizi** cercare e selezionare **Hub IoT**, quindi fare clic su **+ Aggiungi, + Crea oppure + Nuovo**.
+2. Nel pannello **Tutti i servizi** cercare e selezionare **Hub IoT**, quindi fare clic su **+ Aggiungi, + Crea, + Nuovo**.
 
 3. Nella scheda **Informazioni di base** del pannello **Hub IoT** inserire i dettagli seguenti nei campi (sostituire **xxxx** nel nome dell'account di archiviazione con lettere e numeri in modo che il nome sia univoco a livello globale):
 
     | Impostazioni | Valore |
     |--|--|
-    | Sottoscrizione | **Scegliere le propria sottoscrizione** |
-    | Gruppo di risorse |  **myRGIoT** (Crea nuovo)|
+    | Sottoscrizione | **Mantenere l'impostazione predefinita** |
+    | Gruppo di risorse | **Crea nuovo gruppo di risorse** |
     | Area | **Stati Uniti orientali** |
-    | Nome hub IoT | **my-hub-groupxxxx** |
-    | | |
+    | Nome hub IoT | **my-hub-groupxxxxx** |
 
-    **Nota** - Assicurarsi di cambiare **xxxx** in modo che il valore di **Nome hub IoT** sia univoco.
+    **Nota** - Cambiare **xxxx** in modo che il valore di **Nome hub IoT** sia univoco.
 
 4. Passare alla scheda **Gestione** e usare l'elenco a discesa per impostare **Piano tariffario e livello di scalabilità** su **S1: Livello Standard**.
 
@@ -43,7 +42,7 @@ In questa attività verrà aggiunto un dispositivo IoT all'hub IoT.
 
 	![Screenshot della distribuzione in corso e della notifica di operazione completata nel portale di Azure.](../images/0601.png)
 
-2. Per aggiungere un nuovo dispositivo IoT, scorrere in basso fino alla sezione **Strumenti di esplorazione** e fare clic su **Dispositivi IoT**. Quindi, fare clic su **+ Nuovo**.
+2. Per aggiungere un nuovo dispositivo IoT, scorrere in basso fino alla sezione **Strumenti di esplorazione** e fare clic su **Dispositivi IoT**. Quindi, fare clic su **+ Aggiungi, + Crea, + Nuovo**.
 
 	![Screenshot del riquadro Dispositivi IoT evidenziato all'interno del pannello di esplorazione dell'hub IoT nel portale di Azure. Il pulsante Nuovo è evidenziato per illustrare come aggiungere una nuova identità di dispositivo IoT all'hub IoT.](../images/0602.png)
 
@@ -59,23 +58,21 @@ In questa attività verrà aggiunto un dispositivo IoT all'hub IoT.
 
 In questa attività il dispositivo verrà testato con il simulatore Raspberry Pi. 
 
-1. Aprire una nuova scheda del Web browser e passare al [simulatore online Raspberry Pi](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted). 
+1. Aprire una nuova scheda del Web browser e digitare il seguente collegamento: https://aka.ms/RaspPi. Si accederà a un sito del simulatore Raspberry Pi. Se si ha tempo, leggere le informazioni sul simulatore Raspberry Pi. Una volta fatto, selezionare "**X**" per chiudere la finestra popup.
 
-2. Leggere informazioni sul simulatore Raspberry Pi. Se viene visualizzata una finestra popup di panoramica, selezionare la "**X**" per chiuderla.
-
-3. Sul lato destro dell'area del codice individuare la riga con 'const connectionString ='. Sostituirla con la stringa di connessione copiata dal portale di Azure. Notare che la stringa di connessione include le voci DeviceId (**myRaspberryPi**) e SharedAccessKey.
+2. Sul lato destro dell'area del codice, individuare la riga 'const connectionString ='. Sostituirla con la stringa di connessione copiata dal portale di Azure. Notare che la stringa di connessione include le voci DeviceId (**myRaspberryPi**) e SharedAccessKey.
 
 	![Screenshot dell'area del codice all'interno del simulatore Raspberry Pi.](../images/0604.png)
 
-4. Fare clic su **Run** (Esegui) sotto l'area del codice per eseguire l'applicazione. L'output della console dovrebbe visualizzare i dati e i messaggi dei sensori inviati dal simulatore Raspberry Pi all'hub IoT di Azure. I dati e i messaggi vengono inviati ogni volta che il LED del simulatore Raspberry Pi lampeggia. 
+3. Fare clic su **Run** (Esegui) sotto l'area del codice per eseguire l'applicazione. L'output della console dovrebbe visualizzare i dati e i messaggi dei sensori inviati dal simulatore Raspberry Pi all'hub IoT di Azure. I dati e i messaggi vengono inviati ogni volta che il LED del simulatore Raspberry Pi lampeggia. 
 
 	![Screenshot della console del simulatore Raspberry Pi.  L'output della console visualizza i dati e i messaggi dei sensori inviati dal simulatore Raspberry Pi all'hub IoT di Azure.](../images/0605.png)
 
 5. Fare clic su **Stop** (Arresta) per interrompere l'invio di dati.
 
-6. Tornare nel portale di Azure e nell'hub IoT.
+6. Tornare al portale di Azure.
 
-7. Passare al pannello **Panoramica** dell'hub IoT e scorrere in basso fino a visualizzare le informazioni di **Utilizzo dell'hub IoT**.
+7. Passare al pannello **Panoramica** dell'hub IoT e scorrere in basso fino a visualizzare le informazioni di **Utilizzo dell'hub IoT**. Per vedere i dati dell'ultima ora, cambiare l'intervallo di tempo in **Mostra dati per:**.
 
 	![Screenshot delle metriche nell'area sull'utilizzo dell'hub IoT del portale di Azure.](../images/0606.png)
 

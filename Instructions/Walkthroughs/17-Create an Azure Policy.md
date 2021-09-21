@@ -3,11 +3,11 @@ wts:
     title: '17 - Creare un’istanza di Criteri di Azure (10 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 17 - Creare un'istanza di Criteri di Azure
+# 17. Creare un'istanza di Criteri di Azure (10 min)
 
 In questa procedura dettagliata verrà creata un'istanza di Criteri di Azure per limitare la distribuzione delle risorse di Azure a una località specifica.
 
-# Attività 1. Creare un'assegnazione di criteri (10 min)
+# Attività 1. Creare un'assegnazione di criteri 
 
 In questa attività verrà creato il criterio per le località consentite, che verrà assegnato alla sottoscrizione. 
 
@@ -19,25 +19,22 @@ In questa attività verrà creato il criterio per le località consentite, che v
 
 4. Fare clic su **Assegna criterio** nella parte superiore della pagina **Criteri - Assegnazioni**.
 
-5. Nella pagina **Assegna criterio** fare clic sui puntini di sospensione per scegliere il selettore di ambito.
+5. Sulla pagina **Assegna criterio**, mantenere l'ambito predefinito.
 
-    ![Screenshot dei puntini di sospensione del selettore di ambito.](../images/1401.png)
-
-6. Assicurarsi che sia selezionata la propria sottoscrizione. Il nome della sottoscrizione potrebbe essere diverso. È possibile facoltativamente scegliere un gruppo di risorse come ambito del criterio. Lasciare le impostazioni predefinite e fare clic su **Seleziona**. 
+      | Impostazione | Valore | 
+    | --- | --- |
+    | Scope| **Usare l'impostazione predefinita selezionata**|
+    | Definizione del criterio | fare clic sui puntini sospensivi, cercare **Località consentite**, quindi fare clic su **Seleziona** |
+    | Nome assegnazione | **Località consentite** |
+    
+    ![Screenshot del riquadro Scope con i valori dei campi inseriti e il pulsante Seleziona evidenziato. ](../images/1402.png)
+6. Nella scheda **Parametri**, selezionare **Giappone occidentale**. Fare clic su **Rivedi e crea** e quindi su **Crea**.
 
     **Nota**: l'ambito determina le risorse o i gruppi di risorse a cui si applica l'assegnazione dei criteri. In questo caso, sarebbe possibile assegnare questo criterio a un gruppo di risorse specifico, ma è stato scelto il livello di sottoscrizione. Tenere presente che è possibile escludere risorse in base alla configurazione dell'ambito. Le esclusioni sono facoltative.
-
-    ![Screenshot del riquadro Ambito con i valori dei campi inseriti e il pulsante Seleziona evidenziato. ](../images/1402.png)
-
-7. Selezionare il pulsante con i puntini di sospensione di **Definizione criteri**. Nella casella **Cerca** digitare **località**, fare clic sulla definizione **Località consentite** e quindi su **Seleziona**.
 
     **Nota**: la definizione del criterio **Località consentite** consente di specificare una località in cui devono essere distribuite tutte le risorse. Se si sceglie una località diversa, la distribuzione non sarà consentita. Per altre informazioni, vedere la pagina [Esempi di Criteri di Azure](https://docs.microsoft.com/it-it/azure/governance/policy/samples/index).
 
    ![Screenshot del riquadro Definizioni disponibili con vari campi evidenziati e il criterio Controlla macchine virtuali che non usano dischi gestiti selezionato.](../images/1403.png)
-
-8.  Nel riquadro **Assegna criterio** passare alla scheda **Parametri**, fare clic sulla freccia all'estremità della casella **Località consentite**, quindi scegliere **Giappone occidentale** nell'elenco visualizzato. Lasciare inalterati tutti gli altri valori e fare clic su **Rivedi e crea**, quindi su **Crea**.
-
-    ![Screenshot del riquadro Assegna criterio con vari campi completati, la località Giappone occidentale inserita e il pulsante Assegna evidenziato.](../images/1404.png)
 
 9. L'assegnazione del criterio **Località consentite** è riportata nel riquadro **Criteri - Assegnazioni** ed è ora implementata, applicando il criterio al livello di ambito specificato (sottoscrizione).
 
@@ -45,21 +42,20 @@ In questa attività verrà creato il criterio per le località consentite, che v
 
 In questa attività verrà testato il criterio Località consentite. 
 
-1. Nel pannello **Tutti i servizi** del portale di Azure cercare e selezionare **Account di archiviazione**, quindi fare clic su **+ Aggiungi, + Crea oppure + Nuovo**.
+1. Nel pannello **Tutti i servizi** del portale di Azure cercare e selezionare **Account di archiviazione**, quindi fare clic su **+ Crea**.
 
 2. Configurare l'account di archiviazione (sostituire **xxxx** nel nome dell'account di archiviazione con lettere e numeri in modo che il nome sia univoco a livello globale). Lasciare i valori predefiniti per tutto il resto. 
 
     | Impostazione | Valore | 
     | --- | --- |
-    | Sottoscrizione | **Usare la propria sottoscrizione** |
+    | Sottoscrizione | **Usare l'impostazione predefinita fornita** |
     | Gruppo di risorse | **myRGPolicy** (Crea nuovo) |
     | Nome account di archiviazione | **storageaccountxxxx** |
     | Località | **(Stati Uniti) Stati Uniti orientali** |
-    | | |
 
 3. Fare clic su **Rivedi e crea** e quindi su **Crea**. 
 
-4. Verrà visualizzato un messaggio di errore di distribuzione non riuscita, indicante che questa risorsa non è consentita dai criteri, con il nome del criterio **Località consentite**.
+4. Verrà visualizzato il messaggio di errore **distribuzione non riuscita**, indicante che questa risorsa non è consentita dai criteri, incluso il criterio **Località consentite**.
 
 # Attività 3. Eliminare l'assegnazione del criterio
 
@@ -72,12 +68,12 @@ L'assegnazione del criterio verrà eliminata per assicurare che le eventuali ope
     **Nota**: nel pannello **Criteri** è possibile visualizzare lo stato di conformità dei vari criteri assegnati.
 
     **Nota**: il criterio Località consentite potrebbe mostrare risorse non conformi. In tal caso, si tratta di risorse create prima dell'assegnazione del criterio.
+ 
+2. Fare clic su **Località consentite** Si apre la finestra Conformità al criterio Località consentite.
 
-2. Fare clic su **Elimina assegnazione** nel menu superiore.
+3. Fare clic su **Elimina assegnazione** nel menu in alto. Confermare che si vuole eliminare l'assegnazione del criterio facendo clic su **Sì**
 
    ![Screenshot della voce di menu Elimina assegnazione.](../images/1407.png)
-
-3. Confermare che si desidera eliminare l'assegnazione del criterio facendo clic su **Sì** nella finestra di dialogo **Elimina assegnazione**
 
 4. Provare a creare un altro account di archiviazione per verificare che il criterio non è più effettivo.
 

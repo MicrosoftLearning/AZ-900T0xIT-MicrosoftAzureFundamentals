@@ -3,11 +3,11 @@ wts:
     title: '19 - Usare il Calcolatore dei prezzi di Azure (10 min)'
     module: 'Modulo 06: Descrizione di Gestione costi di Azure e Contratti di servizio'
 ---
-# 19. Usare il Calcolatore dei prezzi
+# 19 - Usare il Calcolatore dei prezzi di (10 min)
 
 In questa procedura dettagliata verrà usato il Calcolatore dei prezzi di Azure per generare una stima dei costi relativi a una macchina virtuale di Azure e alle risorse di rete associate.
 
-# Attività 1. Configurare il Calcolatore dei prezzi (10 min)
+# Attività 1. Configurare il Calcolatore dei prezzi
 
 In questa attività verrà stimato il costo di un'infrastruttura di esempio usando il Calcolatore dei prezzi di Azure. 
 
@@ -23,15 +23,13 @@ In questa attività verrà stimato il costo di un'infrastruttura di esempio usan
 
 4. Modificare la configurazione predefinita della VM.
 
-    | Area | Sistema operativo | Tipo |
-    |------|----------------|----|
-    | Europa settentrionale | Windows | (solo sistema operativo) |
-    | | |
-
-    | Livello | Istanza |
-    |----|--------|
-    | Standard | A2: 2 core, 3,5 GB di RAM, 135 GB di archiviazione temporanea |
-    | | |
+    | Impostazioni | Valore |
+    | -- | -- |
+    | Area | **Europa settentrionale** |
+    | Sistema operativo | **Windows** |
+    | Tipo | **(solo sistema operativo)** |
+    | Livello | **Standard** |  
+    | Istanza | **A2: 2 core, 3,5 GB di RAM, 135 GB di archiviazione temporanea** |
 
    ![Screenshot dell'area di configurazione della VM all'interno della pagina Web di stima del Calcolatore dei prezzi di Azure. Gli esempi evidenziati dei valori delle proprietà della configurazione della VM immessi dall'utente indicano come specificare una configurazione di VM all'interno di una stima del Calcolatore dei prezzi di Azure.](../images/1902.png)
 
@@ -73,25 +71,15 @@ In questa attività verrà stimato il costo di un'infrastruttura di esempio usan
 
 11. Aggiungere un nome per la configurazione del gateway applicazione. Questa procedura dettagliata usa il nome **App Gateway: Windows VM**. Modificare la configurazione del gateway applicazione aggiungendo i dettagli seguenti.
 
-    | Area | Livello | Dimensioni |
-    | ------ | ---- | ---- |
-    | Europa settentrionale | Basic | Piccola |
-    | | |
-
-    | Istanze | Ore |
-    | ------- | ------- |
-    | 1 | 365 |
-    | | |
-
-    | Dati elaborati |
-    | -------------- |
-    | 50 GB |
-    | | |
-
-    | Zona 1: America del Nord, Europa |
-    | ----------------------------- |
-    | 50 GB |
-    | | |
+    | Impostazioni | Valore |
+    | -- | -- |
+    | Area | **Europa settentrionale** |
+    | Livello | **Basic** |
+    | Dimensioni | **Piccola** |
+    | Istanze | **1** |  
+    | Ore | **365** |
+    | Dati elaborati | **50 GB** |
+    | Zona 1: America del Nord, Europa | **50 GB**|
 
     ![Screenshot dell'area di configurazione del gateway applicazione all'interno della pagina Web del Calcolatore dei prezzi di Azure.](../images/1909.png)
 
