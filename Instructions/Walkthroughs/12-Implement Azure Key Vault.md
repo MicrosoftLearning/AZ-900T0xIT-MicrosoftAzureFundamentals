@@ -59,4 +59,4 @@ In questa attività verrà aggiunta una password all'insieme di credenziali dell
 
 Congratulazioni! È stata creata un'istanza di Azure Key Vault al cui interno è stato creato un segreto che rende disponibile una password gestita centralmente e archiviata in modo sicuro da usare con le applicazioni.
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.

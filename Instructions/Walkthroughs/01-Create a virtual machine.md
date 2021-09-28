@@ -22,10 +22,11 @@ In questa procedura dettagliata verrà creata una macchina virtuale in Azure a c
     | Gruppo di risorse | **Crea nuovo gruppo di risorse** |
     | Nome della macchina virtuale | **myVM** |
     | Area | **(Stati Uniti) Stati Uniti orientali**|
-    | Immagine | **Windows Server 2019 Datacenter - Gen1**|
+    | Opzioni di disponibilità | Non sono necessarie opzioni di ridondanza dell'infrastruttura|
+    | Immagine | **Windows Server 2019 Datacenter - Gen2**|
     | Dimensioni | **Standard D2s v3**|
     | Nome utente account amministratore | **azureuser** |
-    | Password account amministratore | **Pa$$w0rd1234**|
+    | Password dell'account amministratore (digitarla con attenzione) | **Pa$$w0rd1234**|
     | Regole per le porte in ingresso - | **Consenti selezione porte**|
     | Selezionare le porte in ingresso | **RDP (3389)** e **HTTP (80)**| 
 
@@ -47,9 +48,9 @@ In questa procedura dettagliata verrà creata una macchina virtuale in Azure a c
 
 In questa attività verrà stabilita la connessione alla nuova macchina virtuale tramite RDP (Remote Desktop Protocol, Protocollo desktop remoto). 
 
-1. Cercare **myVM** e selezionare la nuova macchina virtuale.
+1. Fare clic sull'icona della campanella nella barra degli strumenti blu in alto e selezionare "Vai alla risorsa" una volta completata correttamente la distribuzione. 
 
-    **Nota**: è anche possibile usare il collegamento **Vai alla risorsa** nella pagina della distribuzione oppure il collegamento alla risorsa nell'area **Notifiche**.
+    **Nota**: è anche possibile usare il collegamento **Vai alla risorsa** nella pagina della distribuzione 
 
 2. Nel pannello **Panoramica** della macchina virtuale, fare clic sul pulsante **Connetti** e dall'elenco a discesa selezionare **RDP**.
 
@@ -75,7 +76,7 @@ Nel lab verrà avviata una nuova macchina virtuale (myVM). Chiudere le finestre 
 
 In questa attività verrà installato il ruolo server Web sul server in esecuzione sulla macchina virtuale appena creata e si verificherà che venga visualizzata la pagina iniziale di IIS. 
 
-1. Sulla macchina virtuale, avviare PowerShell cercando **PowerShell** nella barra di ricerca e, una volta trovato, fare clic con il pulsante destro del mouse su **Windows PowerShell**, quindi fare clic su **Esegui come amministratore**.
+1. Sulla macchina virtuale appena aperta, avviare PowerShell cercando **PowerShell** nella barra di ricerca e, una volta trovato, fare clic con il pulsante destro del mouse su **Windows PowerShell**, quindi fare clic su **Esegui come amministratore**.
 
     ![Screenshot del desktop della macchina virtuale con il pulsante Start selezionato, l'opzione PowerShell selezionata e l'opzione Esegui come amministratore evidenziata.](../images/0105.png)
 
@@ -85,7 +86,7 @@ In questa attività verrà installato il ruolo server Web sul server in esecuzio
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. Al termine, verrà visualizzato il prompt **Operazione riuscita** con il valore **True**. Non è necessario riavviare la macchina virtuale per completare l'installazione. Chiudere la connessione RDP alla VM facendo clic sulla **x** posta nella barra blu in alto al centro della macchina virtuale. 
+3. Al termine, verrà visualizzato il prompt **Operazione riuscita** con il valore **True**. Non è necessario riavviare la macchina virtuale per completare l'installazione. Chiudere la connessione RDP alla VM facendo clic sulla **x** posta nella barra blu in alto al centro della macchina virtuale. È anche possibile ridurla a icona facendo clic sul segno **-** posto nella barra blu in alto al centro.
 
     ![Screenshot del prompt dei comandi di Windows PowerShell con il comando Install-WindowsFeature -name Web-Server -IncludeManagementTools completato correttamente e l'output che indica che l'operazione è riuscita.](../images/0106.png)
 
@@ -100,4 +101,4 @@ In questa attività verrà installato il ruolo server Web sul server in esecuzio
 **Congratulazioni!** È stata creata una nuova VM su cui è in esecuzione un server Web accessibile tramite il relativo indirizzo IP pubblico. Nella macchina virtuale distribuita si potrebbero distribuire e ospitare i file di un'applicazione Web per l'accesso pubblico.
 
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare se l'eliminazione è stata completata correttamente. 
+**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.

@@ -11,8 +11,7 @@ In questa procedura dettagliata verrà configurato Cloud Shell, verrà usato il 
 
 In questa attività verrà configurato Cloud Shell. 
 
-1. Accedere al [portale di Azure](https://portal.azure.com).
-
+1. Accedere al [portale di Azure](https://portal.azure.com). **Le credenziali di accesso si trovano nella scheda Risorse (subito accanto alla scheda Istruzioni)**
 2. Nel portale di Azure aprire **Azure Cloud Shell** facendo clic sull'icona nell'angolo in alto a destra.
 
     ![Screenshot dell'icona Azure Cloud Shell nel portale di Azure.](../images/1002.png)
@@ -117,4 +116,4 @@ In questa attività verranno esaminate le raccomandazioni di Azure Advisor per l
 
 Congratulazioni! È stato configurato Cloud Shell, è stata creata una macchina virtuale con PowerShell, sono stati provati i comandi di PowerShell e sono state visualizzate le raccomandazioni di Advisor.
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
