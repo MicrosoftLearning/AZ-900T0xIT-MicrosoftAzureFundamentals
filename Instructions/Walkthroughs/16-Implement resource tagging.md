@@ -63,7 +63,6 @@ In questa attività verrà creato un account di archiviazione per verificare l'o
     | Impostazione | Valore | 
     | --- | --- |
     | Nome tag | **Company** (potrebbe non essere incluso nell'elenco a discesa) |
-    | Valore del tag | **Contoso** |
 
 6. Fare clic su **Rivedi e crea** e verificare se la convalida è riuscita. Fare clic su **Crea** per distribuire l'account di archiviazione. 
 
@@ -98,4 +97,4 @@ In questa attività verrà rimosso il criterio **Richiedi un tag sulle risorse**
 Congratulazioni! In questa procedura dettagliata è stato creato un criterio per l'assegnazione di tag, è stata creata una risorsa (account di archiviazione) ed è stato verificato il criterio per l'assegnazione di tag, quindi sono state visualizzate le risorse con un tag specifico e infine è stato rimosso il criterio per l'assegnazione di tag.
 
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
