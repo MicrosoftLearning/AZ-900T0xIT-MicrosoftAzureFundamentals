@@ -80,7 +80,7 @@ In questa attività verrà installato il ruolo server Web sul server in esecuzio
 
     ![Screenshot del desktop della macchina virtuale con il pulsante Start selezionato, l'opzione PowerShell selezionata e l'opzione Esegui come amministratore evidenziata.](../images/0105.png)
 
-2. In PowerShell, installare la funzionalità **Web-Server** sulla macchina virtuale eseguendo il comando sotto riportato. 
+2. In PowerShell, installare la funzionalità **Web-Server** nella macchina virtuale eseguendo il comando seguente. (Incollare il comando e premere INVIO per avviare l'installazione.)
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools

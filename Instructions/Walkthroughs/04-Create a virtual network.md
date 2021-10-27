@@ -25,7 +25,7 @@ In questa attività verrà creata una rete virtuale.
     | Area | **(Stati Uniti) Stati Uniti orientali** |
     
    
-4. Fare clic sul pulsante **Rivedi e crea**. Assicurarsi che la convalida venga superata.
+4. Fare clic sul pulsante **Rivedi e crea**. Assicurarsi che la convalida venga superata. Fare quindi clic su Crea per distribuire la risorsa.
 
 
 # Attività 2. Creare due macchine virtuali
