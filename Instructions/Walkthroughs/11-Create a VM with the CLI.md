@@ -23,7 +23,7 @@ In questa attività, verrà configurato Cloud Shell, quindi si userà l'interfac
 
 5. Nella schermata delle impostazioni avanzate, riempire i seguenti campi, quindi fare clic su Crea risorse di archiviazione:
     - Gruppo di risorse: **Crea nuovo gruppo di risorse**
-    - Account di archiviazione: Creare un nuovo account di archiviazione e usare un nome che sia univoco a livello globale (ad esempio: cloudshellxyzstorage)
+    - Account di archiviazione: Creare un nuovo account di archiviazione e usare un nome che sia univoco a livello globale (ad esempio: cloudshellstoragemystorage)
     - Condivisione file: Creare un nuovo file con il nome cloudshellfileshare
 
 
@@ -35,8 +35,13 @@ In questa attività verranno creati un gruppo di risorse e una macchina virtuale
 
     ![Screenshot di Cloud Shell nel portale di Azure con l'elenco a discesa Bash evidenziato.](../images/1002a.png)
 
+2. Nella sessione di Bash, all'interno del riquadro Cloud Shell, creare un nuovo gruppo di risorse. 
 
-2. Verificare il gruppo di risorse in uso immettendo il seguente comando.
+    ```cli
+    az group create --name myRGCLI --location EastUS
+    ```
+
+3. Verificare che il gruppo di risorse sia stato creato.
 
     ```cli
     az group list --output table
@@ -117,4 +122,4 @@ In questa attività verranno esaminate le raccomandazioni di Azure Advisor.
 
 Congratulazioni! È stato configurato Cloud Shell, è stata creata una macchina virtuale con l'interfaccia della riga di comando di Azure, sono stati provati i comandi dell'interfaccia della riga di comando di Azure e sono state visualizzate le raccomandazioni di Advisor.
 
-**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
