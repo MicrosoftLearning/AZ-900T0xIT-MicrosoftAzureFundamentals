@@ -61,6 +61,6 @@ In questa attività verrà testata l'app Web.
 
 5. Tornare nel pannello **Panoramica** dell'app Web e scorrere verso il basso. Notare la presenza di diversi grafici che riportano i dati in ingresso/uscita e le richieste. Se si ripete per alcune volte il passaggio 4, sarà possibile visualizzare in questi grafici i dati di telemetria corrispondenti, tra cui il numero di richieste e il tempo medio di risposta. 
 
-**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
 
 Congratulazioni: è stata creata correttamente un'app Web del Servizio app di Azure.

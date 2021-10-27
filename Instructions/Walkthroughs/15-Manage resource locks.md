@@ -7,22 +7,41 @@ wts:
 
 In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e ne verrà verificata l'eliminazione. In una sottoscrizione è possibile applicare blocchi a gruppi di risorse o a singole risorse per evitare l'eliminazione o la modifica accidentale di risorse critiche.  
 
+# Attività 1. Creare un gruppo di risorse 
 
-# Attività 1.  Aggiungere un blocco al gruppo di risorse per verificarne l'eliminazione
-
-In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e ne verrà verificata l'eliminazione. 
+In questa attività verrà creato un gruppo di risorse per questo esercizio. 
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel portale di Azure passare al gruppo di risorse **myRGLocks**.
+2. Nel pannello **Tutti i servizi** cercare e selezionare **Gruppi di risorse**, quindi fare clic su **+ Aggiungi**, **+ Crea** o **+ Nuovo**.
 
-3. È possibile applicare un blocco a una sottoscrizione, a un gruppo di risorse o a una singola risorsa per evitare l'eliminazione o la modifica accidentale di risorse critiche. 
+3. Creare un nuovo gruppo di risorse. Al termine, fare clic su **Crea**. 
 
-4. Nella sezione **Impostazioni** fare clic su **Blocchi** e quindi su **+ Aggiungi**. 
+    | Impostazione | Valore |
+    | -- | -- |
+    | Sottoscrizione | **Scegliere le propria sottoscrizione** |
+    | Gruppo di risorse | **myRGLocks** |
+    | Area | **(Stati Uniti) Stati Uniti orientali** |
+    | | |
+
+4. Fare clic su **Rivedi e crea** e quindi su **Crea**.
+
+5. Scegliere **Aggiorna** per aggiornare la pagina del gruppo di risorse, quindi fare clic sulla voce che rappresenta il nuovo gruppo di risorse creato.
+    
+
+# Attività 2.  Aggiungere un blocco al gruppo di risorse per verificarne l'eliminazione
+
+In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e ne verrà verificata l'eliminazione. 
+
+1. Nel portale di Azure passare al nuovo gruppo di risorse **myRGLocks** creato.
+
+2. È possibile applicare un blocco a una sottoscrizione, a un gruppo di risorse o a una singola risorsa per evitare l'eliminazione o la modifica accidentale di risorse critiche. 
+
+3. Nella sezione **Impostazioni** fare clic su **Blocchi** e quindi su **+ Aggiungi**. 
 
     ![Screenshot del gruppo di risorse myRGLocks con il riquadro Blocchi visualizzato.](../images/1601.png)
 
-5. Configurare il nuovo blocco. Al termine, fare clic su **OK**. 
+4. Configurare il nuovo blocco. Al termine, fare clic su **OK**. 
 
     | Impostazione | Valore |
     | -- | -- |
@@ -30,11 +49,11 @@ In questa procedura dettagliata verrà aggiunto un blocco al gruppo di risorse e
     | Tipo di blocco | **Eliminazione** |
     | | |
 
-6. Fare clic su **Panoramica** e quindi su **Elimina gruppo di risorse**. Digitare il nome del gruppo di risorse e fare clic su **OK**. Viene visualizzato un messaggio di errore indicante che il gruppo di risorse è bloccato e non può essere eliminato.
+5. Fare clic su **Panoramica** e quindi su **Elimina gruppo di risorse**. Digitare il nome del gruppo di risorse e fare clic su **OK**. Viene visualizzato un messaggio di errore indicante che il gruppo di risorse è bloccato e non può essere eliminato.
 
     ![Screenshot dell'eliminazione non riuscita a causa del blocco.](../images/1602.png)
 
-# Attività 2. Verificare l'eliminazione di un membro del gruppo di risorse
+# Attività 3. Verificare l'eliminazione di un membro del gruppo di risorse
 
 In questa attività si verificherà se il blocco della risorsa protegge un account di archiviazione nel gruppo di risorse. 
 
@@ -66,7 +85,7 @@ In questa attività si verificherà se il blocco della risorsa protegge un accou
 
     **Nota**: anche se non è stato creato specificamente per l'account di archiviazione, il blocco è stato creato a livello del gruppo di risorse che contiene l'account di archiviazione. Di conseguenza, questo blocco a livello *padre* impedisce l'eliminazione della risorsa e l'account di archiviazione eredita il blocco dalla risorsa padre.
 
-# Attività 3. Rimuovere il blocco della risorsa
+# Attività 4. Rimuovere il blocco della risorsa
 
 In questa attività verrà rimosso il blocco della risorsa e verrà verificata la rimozione. 
 
@@ -80,4 +99,4 @@ In questa attività verrà rimosso il blocco della risorsa e verrà verificata l
 
 Congratulazioni! È stato creato un gruppo di risorse a cui è stato aggiunto un blocco, quindi è stata verificata l'eliminazione di una risorsa del gruppo di risorse e infine il blocco è stato rimosso. 
 
-**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
