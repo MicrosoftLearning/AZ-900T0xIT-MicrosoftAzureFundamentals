@@ -11,6 +11,8 @@ In questa procedura dettagliata verrà creata una rete virtuale in cui verranno 
 
 In questa attività verrà creata una rete virtuale. 
 
+Nota: prima di iniziare il lab, disabilitare il firewall pubblico e privato nella macchina virtuale aprendo il menu Start > Impostazioni > Rete e Internet > Windows Firewall.
+
 1. Accedere al portale di Azure all'indirizzo <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
 2. Nel pannello **Tutti i servizi** cercare e selezionare **Reti virtuali**, quindi fare clic su **+ Aggiungi, + Crea, + Nuovo**. 
@@ -42,7 +44,7 @@ In questa attività verranno create due macchine virtuali nella rete virtuale.
    | Gruppo di risorse |  **Selezionare l'impostazione predefinita nell'elenco a discesa** |
    | Nome della macchina virtuale | **vm1**|
    | Area | **(Stati Uniti) Stati Uniti orientali** |
-   | Immagine | **Windows Server 2019 Datacenter - Gen1** |
+   | Immagine | **Windows Server 2019 Datacenter - Gen2** |
    | Nome utente| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Porte in ingresso pubbliche| Selezionare **Consenti porte selezionate**  |
@@ -84,6 +86,8 @@ In questa attività verrà testata la capacità delle macchine virtuali di comun
 
 6. Durante la procedura di accesso, è possibile che venga visualizzato un avviso relativo al certificato. Fare clic su **Sì** per creare la connessione e connettersi alla VM distribuita. La connessione dovrebbe essere stabilita correttamente. Chiudere le finestre di Windows Server e del dashboard che si aprono. Si dovrebbe vedere lo sfondo blu di Windows. Ora ci si trova nella macchina virtuale.
 
+Nota: nella macchina virtuale appena creata, disabilitare il firewall pubblico e privato aprendo il menu Start > Impostazioni > Rete e Internet > Windows Firewall.
+
 7. Aprire PowerShell sulla macchina virtuale facendo clic sul pulsante **Avvia**, digitare **PowerShell** nella casella Cerca, quindi fare clic con il pulsante destro del mouse su **Windows PowerShell** e selezionare **Esegui come amministratore**
 
 8. In Powershell, tentare di effettuare il ping a vm2 digitando il comando:
@@ -97,4 +101,4 @@ In questa attività verrà testata la capacità delle macchine virtuali di comun
 
 **Congratulazioni!** Sono state configurate e distribuite due macchine virtuali in una rete virtuale e si è riusciti a metterle in comunicazione.
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, opzionalmente è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
