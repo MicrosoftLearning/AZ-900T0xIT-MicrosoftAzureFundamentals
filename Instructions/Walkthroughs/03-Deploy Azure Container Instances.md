@@ -26,7 +26,7 @@ In questa attività verrà creata una nuova istanza di contenitore per l'applica
 	| Area | **(Stati Uniti) Stati Uniti orientali** |
 	| Origine immagine| **Docker Hub o altro registro**|
 	| Tipo di immagine| **Pubblico**|
-	| Immagine| **microsoft/aci-helloworld**|
+	| Immagine| **mcr.microsoft.com/azuredocs/aci-helloworld**|
 	| Tipo di sistema operativo| **Linux** |
 	| Dimensioni| ***Lasciare il valore predefinito***|
 

@@ -28,7 +28,7 @@ In questa attività verrà creata un'app Web del servizio app di Azure.
     | Sistema operativo | **Linux** |
     | Area | **Stati Uniti orientali** |
     
-    **Nota** - Non dimenticare di modificare **xxxx** in modo che il nome dell'app Web sia univoco a livello globale.
+    **Nota:** non dimenticare di modificare **xxxx** in modo che il nome dell'app Web sia univoco a livello globale.
 
 4. Fare clic su **Avanti > Docker** e configurare le informazioni sul contenitore.  
 
@@ -37,9 +37,9 @@ In questa attività verrà creata un'app Web del servizio app di Azure.
     | Opzioni | **Contenitore singolo** |
     | Origine immagine | **Docker Hub** |
     | Tipo di accesso | **Pubblico** |
-    | Immagine e tag | **microsoft/aci-helloworld** |
+    | Immagine e tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     
- **Nota** Il comando di avvio è facoltativo e non è necessario in questo esercizio.
+ **Nota:** il comando di avvio è facoltativo e non è necessario in questo esercizio.
 
 5. Fare clic su **Rivedi e crea** e quindi su **Crea**. 
 

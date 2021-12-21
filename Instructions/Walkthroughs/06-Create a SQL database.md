@@ -25,9 +25,10 @@ In questa attività verrà creato un database SQL basato sul database di esempio
     | Nome database| **db1** | 
     | Server | Selezionare **Crea nuovo** (sulla destra si apre una nuova barra laterale)|
     | Nome server | **sqlserverxxxx** (deve essere univoco) | 
+    | Posizione | **(Stati Uniti) Stati Uniti orientali** |
+    | Metodo di autenticazione | **Usa autenticazione SQL** |
     | Accesso amministratore server | **sqluser** |
     | Password | **Pa$$w0rd1234** |
-    | Località | **(Stati Uniti) Stati Uniti orientali** |
     | Fare clic su  | **OK** |
 
    ![Screenshot del riquadro Server e del riquadro Nuovo server con i campi compilati come indicato nella tabella e i pulsanti Rivedi e crea e OK evidenziati.](../images/0501.png)
@@ -46,7 +47,7 @@ In questa attività verrà creato un database SQL basato sul database di esempio
 
     | Impostazione | Valore | 
     | --- | --- |
-    | Azure Defender per SQL| **Non adesso** |
+    | Microsoft Defender per SQL| **Non adesso** |
     
 6. Passare alla scheda **Impostazioni aggiuntive**. Verrà usato il database di esempio AdventureWorksLT.
 

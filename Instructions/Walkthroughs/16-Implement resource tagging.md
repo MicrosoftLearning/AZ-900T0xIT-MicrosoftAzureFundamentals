@@ -23,7 +23,7 @@ In questa attività verrà configurato il criterio **Richiedi un tag sulle risor
 
    ![Screenshot del riquadro di definizioni disponibili con la definizione Richiedi un tag sulle risorse selezionata.](../images/1701.png)
    
-6. Nella scheda **Parametri** digitare **Company** come nome per il tag. Immettere **Contoso** come valore. Fare clic su **Rivedi e crea** e quindi su **Crea**.
+6.  Nella scheda **Parametri** digitare **Company** come nome per il tag. Fare clic su **Rivedi e crea** e quindi su **Crea**.
 
     ![Screenshot del riquadro Assegna criterio con il nome del tag inserito.](../images/1702.png)
 
@@ -63,7 +63,6 @@ In questa attività verrà creato un account di archiviazione per verificare l'o
     | Impostazione | Valore | 
     | --- | --- |
     | Nome tag | **Company** (potrebbe non essere incluso nell'elenco a discesa) |
-    | Valore del tag | **Contoso** |
 
 6. Fare clic su **Rivedi e crea** e verificare se la convalida è riuscita. Fare clic su **Crea** per distribuire l'account di archiviazione. 
 

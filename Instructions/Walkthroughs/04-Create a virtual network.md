@@ -61,7 +61,7 @@ In questa attività verranno create due macchine virtuali nella rete virtuale.
 
     | Impostazione | Valore |
     | --- | --- |
-    | Gruppo di risorse | **myRGVNet** |
+    | Gruppo di risorse | **selezionare il gruppo predefinito nell'elenco a discesa (come per l'attività 1-3 e l'attività 2-2)** |
     | Nome della macchina virtuale |  **vm2** |
     | Rete virtuale | **vnet1** |
     | IP pubblico | **vm2-ip** |
