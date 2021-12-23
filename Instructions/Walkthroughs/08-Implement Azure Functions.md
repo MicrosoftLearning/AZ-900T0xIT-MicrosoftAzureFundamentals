@@ -73,7 +73,7 @@ In questa attività verrà usata la funzione Webhook e API per visualizzare un m
 
     ![Screenshot dell'URL di una funzione evidenziato e un nome utente di esempio aggiunto nella barra degli indirizzo di un Web browser. Anche il messaggio di benvenuto e il nome utente sono evidenziati per illustrare l'output della funzione nella finestra principale del browser.](../images/0707.png)
 
-10. Quando si preme Invio, la funzione viene eseguita e ogni chiamata viene analizzata. Per visualizzare le tracce, tornare al Portale **HttpTrigger1** \| Nel pannello **Codice e test**, fare clic su **Monitoraggio**. **Configurare** Application Insights selezionando la funzione scelta e l'area. Selezionare **Crea**.
+10. Quando si preme Invio, la funzione viene eseguita e ogni chiamata viene analizzata. Per visualizzare le tracce, tornare al Portale **HttpTrigger1 \| **Nel pannello **Codice e test**, fare clic su **Monitoraggio**. Per **configurare** Application Insights, selezionare il timestamp e fare clic su **Run query in Application Insights** (Esegui query in Application Insights).
 
     ![Screenshot di un log di informazioni sulle tracce generato dall'esecuzione della funzione all'interno dell'editor di funzioni nel portale di Azure.](../images/0709.png) 
 

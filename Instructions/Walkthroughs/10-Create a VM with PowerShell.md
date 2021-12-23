@@ -11,8 +11,7 @@ In questa procedura dettagliata verrà configurato Cloud Shell, verrà usato il 
 
 In questa attività verrà configurato Cloud Shell. 
 
-1. Accedere al [portale di Azure](https://portal.azure.com).
-
+1. Accedere al [portale di Azure](https://portal.azure.com). **Le credenziali di accesso si trovano nella scheda Risorse (subito accanto alla scheda Istruzioni)**
 2. Nel portale di Azure aprire **Azure Cloud Shell** facendo clic sull'icona nell'angolo in alto a destra.
 
     ![Screenshot dell'icona Azure Cloud Shell nel portale di Azure.](../images/1002.png)
@@ -99,7 +98,7 @@ In questa attività verranno esaminate le raccomandazioni di Azure Advisor per l
 
 1. Nel pannello **Tutti i servizi** cercare e selezionare **Advisor**. 
 
-2. Nel pannello **Advisor** selezionare **Panoramica**. Le raccomandazioni sono raggruppate in base a Disponibilità elevata, Sicurezza, Prestazioni e Costo. 
+2. Nel pannello **Advisor** selezionare **Panoramica**. Le raccomandazioni sono raggruppate in base ad Affidabilità, Sicurezza, Prestazioni e Costo. 
 
     ![Screenshot della pagina Panoramica di Advisor. ](../images/1003.png)
 

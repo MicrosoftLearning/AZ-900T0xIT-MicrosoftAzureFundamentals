@@ -35,13 +35,8 @@ In questa attività verranno creati un gruppo di risorse e una macchina virtuale
 
     ![Screenshot di Cloud Shell nel portale di Azure con l'elenco a discesa Bash evidenziato.](../images/1002a.png)
 
-2. Nella sessione di Bash, all'interno del riquadro Cloud Shell, creare un nuovo gruppo di risorse. 
 
-    ```cli
-    az group create --name myRGCLI --location EastUS
-    ```
-
-3. Verificare che il gruppo di risorse sia stato creato.
+2. Verificare il gruppo di risorse in uso immettendo il seguente comando.
 
     ```cli
     az group list --output table
@@ -104,7 +99,7 @@ In questa attività verranno esaminate le raccomandazioni di Azure Advisor.
 
 1. Nel pannello **Tutti i servizi** cercare e selezionare **Advisor**. 
 
-2. Nel pannello **Advisor** selezionare **Panoramica**. Le raccomandazioni sono raggruppate in base a Disponibilità elevata, Sicurezza, Prestazioni e Costo. 
+2. Nel pannello **Advisor** selezionare **Panoramica**. Le raccomandazioni sono raggruppate in base ad Affidabilità, Sicurezza, Prestazioni e Costo. 
 
     ![Screenshot della pagina Panoramica di Advisor. ](../images/1103.png)
 
