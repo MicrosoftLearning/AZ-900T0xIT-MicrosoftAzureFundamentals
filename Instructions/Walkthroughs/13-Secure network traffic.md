@@ -1,7 +1,7 @@
 ---
 wts:
-    title: '13 - Proteggere il traffico di rete (10 min)'
-    module: 'Modulo 04: Descrizione delle funzionalità di sicurezza generali e di rete'
+    title: '13. Proteggere il traffico di rete (10 min)'
+    module: 'Modulo 04. Descrizione delle funzionalità di sicurezza generali e di rete'
 ---
 # 13. Proteggere il traffico di rete (10 min)
 
@@ -23,7 +23,7 @@ In questa attività verrà creata una macchina virtuale Windows Server 2019 Data
     | Gruppo di risorse | **Crea nuovo gruppo di risorse** |
     | Nome della macchina virtuale | **SimpleWinVM** |
     | Area | **(Stati Uniti) Stati Uniti orientali**|
-    | Immagine | **Windows Server 2019 Datacenter Gen 1**|
+    | Immagine | **Windows Server 2019 Datacenter Gen 2**|
     | Dimensioni | **Standard D2s v3**|
     | Nome utente account amministratore | **azureuser** |
     | Password account amministratore | **Pa$$w0rd1234**|
@@ -55,7 +55,7 @@ In questa attività verrà creata una macchina virtuale Windows Server 2019 Data
 
 # Attività 2. Creare un gruppo di sicurezza di rete
 
-In questa attività verrà creato un gruppo di sicurezza di rete che verrà associato all'interfaccia di rete.
+In questa attività verrà creato un gruppo di sicurezza di rete che verrà associato all'interfaccia di rete. 
 
 1. Nel pannello **Tutti i servizi** cercare e selezionare **Gruppi di sicurezza di rete**, quindi fare clic su **+ Aggiungi, + Crea, + Nuovo**
 
@@ -72,7 +72,7 @@ In questa attività verrà creato un gruppo di sicurezza di rete che verrà asso
 
 4. Una volta creato il gruppo di sicurezza di rete, fare clic su **Vai alla risorsa**.
 
-5. In **Impostazioni** fare clic su **Interfacce di rete** e quindi su **+ Associa**.
+5. In **Impostazioni** fare clic su **Interfacce di rete** e quindi su **Associa**.
 
 6. Selezionare l'interfaccia di rete identificata nell'attività precedente. 
 
@@ -106,9 +106,9 @@ In questa attività verrà consentito il traffico RDP verso la macchina virtuale
 
 6. Selezionare **Aggiungi**, attendere che venga eseguito il provisioning della regola, quindi ritentare la connessione RDP alla macchina virtuale ritornando all'opzione **Connetti**. Questa volta la connessione dovrebbe riuscire. Ricordare che l'utente è **azureuser** e la password è **Pa$$w0rd1234**.
 
-# Attività 4. Configurare una regola di sicurezza delle porte in uscita per negare l'accesso Internet
+# Attività 4. Configurare una regola di sicurezza delle porte in uscita per negare l'accesso a Internet
 
-In questa attività verrà creata una regola delle porte in uscita del gruppo di sicurezza di rete che negherà l'accesso Internet e quindi verrà testato il funzionamento della regola.
+In questa attività verrà creata una regola delle porte in uscita del gruppo di sicurezza di rete che negherà l'accesso a Internet e quindi verrà testato il funzionamento della regola.
 
 1. Continuare nella sessione RDP della macchina virtuale. 
 
@@ -116,7 +116,7 @@ In questa attività verrà creata una regola delle porte in uscita del gruppo di
 
 3. Verificare che sia possibile accedere all'indirizzo **https://www.bing.com** e quindi chiudere Internet Explorer. Sarà necessario gestire i popup di sicurezza avanzata di Internet Explorer. 
 
-    **Nota**: verrà ora configurata una regola per negare l'accesso Internet in uscita. 
+    **Nota**: verrà ora configurata una regola per negare l'accesso a Internet in uscita. 
 
 4. Nel portale di Azure, tornare nel pannello della macchina virtuale **SimpleWinVM**. 
 
@@ -140,6 +140,6 @@ In questa attività verrà creata una regola delle porte in uscita del gruppo di
 
 8. Fare clic su **Aggiungi** Ritornare alla macchina virtuale connessa tramite RDP. 
 
-9. Passare a **https://www.microsoft.com**. La pagina non dovrebbe essere visualizzata. Può essere necessario gestire ulteriori popup di sicurezza avanzata di Internet Explorer.  
+9. Passare a **https://www.microsoft.com**. La pagina non dovrebbe essere visualizzata. Potrebbe essere necessario gestire ulteriori popup di sicurezza avanzata di Internet Explorer.  
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse e quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
