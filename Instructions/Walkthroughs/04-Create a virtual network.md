@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '04. Creazione di una rete virtuale (20 min)'
-    module: 'Modulo 02. Servizi principali di Azure (carichi di lavoro)'
+    title: '04 - Creazione di una rete virtuale (20 min)'
+    module: 'Modulo 02 - Servizi principali di Azure (carichi di lavoro)'
 ---
-# 04. Creazione di una rete virtuale (20 min)
+# 04 - Creazione di una rete virtuale (20 min)
 
 In questa procedura dettagliata verrà creata una rete virtuale in cui verranno distribuite due macchine virtuali, che verranno poi configurate per consentire a una macchina virtuale di effettuare il ping all'altra all'interno della rete virtuale creata.
 

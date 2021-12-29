@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '09. Creare una VM con un modello (10 min)'
-    module: 'Modulo 03. Descrizione delle soluzioni e degli strumenti di gestione principali'
+    title: '09 - Creare una VM con un modello (10 min)'
+    module: 'Modulo 03: Descrizione delle soluzioni e degli strumenti di gestione principali'
 ---
-# 09. Creare una VM con un modello (10 min)
+# 09 - Creare una VM con un modello (10 min)
 
 In questa procedura dettagliata verrà distribuita una macchina virtuale con un modello di avvio rapido e verranno esaminate le funzionalità di monitoraggio.
 
@@ -13,19 +13,19 @@ In questa attività verrà esplorata la raccolta di avvio rapido di Azure e verr
 
 1. Nell'ambiente del lab, aprire una nuova finestra del browser e immettere T https://azure.microsoft.com/it-it/resources/templates/?azure-portal=true. La raccolta contiene numerosi modelli ampiamente diffusi e aggiornati di recente. Questi modelli automatizzano la distribuzione delle risorse di Azure, inclusa l'installazione dei pacchetti software più diffusi. Esplorare i vari tipi diversi di modelli disponibili.
 
-3. Selezionare **Distribuisci una macchina virtuale Windows semplice**
+2. Selezionare **Distribuisci una macchina virtuale Windows semplice**
 
-4. Fare clic sul pulsante **Distribuisci in Azure**. La sessione del browser verrà automaticamente reindirizzata al [portale di Azure](http://portal.azure.com/).
+3. Fare clic sul pulsante **Distribuisci in Azure**. La sessione del browser verrà automaticamente reindirizzata al [portale di Azure](http://portal.azure.com/).
 
   **Nota**: il pulsante **Distribuisci in Azure** consente di distribuire il modello tramite il portale di Azure. Durante tale distribuzione verrà chiesto di specificare solo un set ridotto di parametri di configurazione. 
 
-5. Quando richiesto, accedere alla propria sottoscrizione di Azure usando le credenziali fornite precedentemente in queste istruzioni.
+4. Quando richiesto, accedere alla propria sottoscrizione di Azure usando le credenziali fornite precedentemente in queste istruzioni.
 
-6. Fare clic su **Modifica modello**. Il modello di Resource Manager è in formato JSON. Esaminare i parametri e le variabili.  Quindi individuare il parametro relativo al nome della macchina virtuale. Cambiare il nome in **myVMTemplate**. Far clic su **Salva** per salvare le modifiche. 
+5. Fare clic su **Modifica modello**. Il modello di Resource Manager è in formato JSON. Esaminare i parametri e le variabili.  Quindi individuare il parametro relativo al nome della macchina virtuale. Cambiare il nome in **myVMTemplate**. Far clic su **Salva** per salvare le modifiche. 
 
     ![Screenshot del modello con il nome della VM cambiato evidenziato.](../images/0901.png)
 
-7. Ora configurare i parametri necessari per il modello (sostituire ***xxxx*** nel prefisso dell'etichetta DNS con lettere e numeri in modo che l'etichetta sia univoca a livello globale). Lasciare i valori predefiniti per tutto il resto. 
+6. Ora configurare i parametri necessari per il modello (sostituire ***xxxx*** nel prefisso dell'etichetta DNS con lettere e numeri in modo che l'etichetta sia univoca a livello globale). Lasciare i valori predefiniti per tutto il resto. 
 
     | Impostazione| Valore|
     |----|----|
@@ -38,9 +38,9 @@ In questa attività verrà esplorata la raccolta di avvio rapido di Azure e verr
     | Versione del sistema operativo | **2019-Datacenter** |
 
 
-9. Fare clic su **Rivedi e crea**.
+7. Fare clic su **Rivedi e crea**.
 
-10. Monitorare la distribuzione. 
+8. Monitorare la distribuzione. 
 
 # Attività 2. Verificare e monitorare la distribuzione della macchina virtuale
 

@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '14. Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)'
-    module: 'Modulo 05. Descrizione delle funzionalità di identità, governance, privacy e conformità'
+    title: '14 - Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)'
+    module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 14. Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)
+# 14 - Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)
 
 In questa procedura dettagliata verranno assegnati ruoli di autorizzazione alle risorse e verranno visualizzati i log.
 
@@ -29,7 +29,7 @@ In questa attività verrà assegnato il ruolo Collaboratore Macchina virtuale.
 5. Scegliere **Aggiorna** per aggiornare la pagina del gruppo di risorse, quindi fare clic sulla voce che rappresenta il nuovo gruppo di risorse creato.
 
 6. Fare clic sul pannello **Controllo di accesso (IAM)** e quindi passare alla scheda **Ruoli**. Scorrere il numero elevato di definizioni dei ruoli disponibili. Usare le icone di informazioni per avere un'idea delle autorizzazioni di ogni ruolo. Sono anche disponibili informazioni sul numero di utenti e gruppi assegnati a ogni ruolo.
-7. 
+
 ![immagine](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
 7. Passare alla scheda **Assegnazioni di ruolo** del pannello **myRGRBAC - Controllo di accesso (IAM)**, fare clic su **+ Aggiungi** e quindi fare clic su **Aggiungi assegnazione di ruolo**. Cercare il ruolo Virtual Machine Contributor e selezionarlo. Passare alla scheda "Membri" e assegnare l'accesso a: Utente, gruppo o entità servizio. Quindi fare clic su + Selezionare membri e digitare il proprio nome nella funzione di ricerca popup e premere "seleziona". Quindi premere "Verifica e assegna"
