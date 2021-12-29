@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '16 - Implementare l’assegnazione di tag alle risorse (5 min)'
+    title: '16 - Implementare l'assegnazione di tag alle risorse (5 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 16. Implementare l'assegnazione di tag alle risorse (5 min)
+# 16 - Implementare l'assegnazione di tag alle risorse (5 min)
 
 In questa procedura dettagliata verrà creato un criterio che richiede l'assegnazione di tag, verrà creato un account di archiviazione e verrà verificata l'assegnazione di tag, quindi verranno visualizzate le risorse con un tag specificato e infine verrà rimosso il criterio di assegnazione di tag.
 
@@ -23,11 +23,11 @@ In questa attività verrà configurato il criterio **Richiedi un tag sulle risor
 
    ![Screenshot del riquadro di definizioni disponibili con la definizione Richiedi un tag sulle risorse selezionata.](../images/1701.png)
    
-6.  Nella scheda **Parametri** digitare **Company** come nome per il tag. Fare clic su **Rivedi e crea** e quindi su **Crea**.
+6.  Nella scheda **Parametri** digitare **Company: Contoso** per il nome della coppia chiave/valore del tag. Fare clic su **Rivedi e crea** e quindi su **Crea**.
 
     ![Screenshot del riquadro Assegna criterio con il nome del tag inserito.](../images/1702.png)
 
-7. L'assegnazione del criterio **Richiedi un tag sulle risorse** è ora effettiva. Quando viene creata una risorsa, è necessario che includa un tag con la chiave Company.
+7. L'assegnazione del criterio **Richiedi un tag sulle risorse** è ora effettiva. Quando viene creata una risorsa, è necessario che includa un tag con la chiave Società: Contoso.
    **Nota: l'applicazione del criterio potrebbe richiedere fino a 30 minuti.** 
 
    ![Screenshot del riquadro Criteri - Assegnazioni con l'assegnazione di località consentite evidenziata.](../images/1703.png)
@@ -62,7 +62,7 @@ In questa attività verrà creato un account di archiviazione per verificare l'o
 
     | Impostazione | Valore | 
     | --- | --- |
-    | Nome tag | **Company** (potrebbe non essere incluso nell'elenco a discesa) |
+    | Nome tag | **Company:Contoso** (potrebbe non essere incluso nell'elenco a discesa) |
 
 6. Fare clic su **Rivedi e crea** e verificare se la convalida è riuscita. Fare clic su **Crea** per distribuire l'account di archiviazione. 
 
@@ -88,13 +88,13 @@ In questa attività verrà rimosso il criterio **Richiedi un tag sulle risorse**
 
 2. Fare clic sul criterio **Richiedi un tag sulle risorse**.
 
-3. Fare clic su **Elimina assegnazione** nel menu superiore.
+3. Fare clic su **Elimina assegnazione** nel menu in alto.
 
 4. Confermare che si desidera eliminare l'assegnazione del criterio facendo clic su **Sì** nella finestra di dialogo **Elimina assegnazione**
 
-5. Se si ha tempo, creare un'altra risorsa senza un tag per verificare che il criterio non ha più effetto.
+5. Se si ha tempo, creare un'altra risorsa senza un tag per assicurarsi che il criterio non abbia più effetto.
 
 Congratulazioni! In questa procedura dettagliata è stato creato un criterio per l'assegnazione di tag, è stata creata una risorsa (account di archiviazione) ed è stato verificato il criterio per l'assegnazione di tag, quindi sono state visualizzate le risorse con un tag specifico e infine è stato rimosso il criterio per l'assegnazione di tag.
 
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse e quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.

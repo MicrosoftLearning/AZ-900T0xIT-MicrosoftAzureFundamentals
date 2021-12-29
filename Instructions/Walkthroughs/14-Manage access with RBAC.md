@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '14 - Gestire l’accesso con il controllo degli accessi in base al ruolo (5 min)'
+    title: '14 - Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)'
     module: 'Modulo 05: Descrizione delle funzionalità di identità, governance, privacy e conformità'
 ---
-# 14. Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)
+# 14 - Gestire l'accesso con il controllo degli accessi in base al ruolo (5 min)
 
 In questa procedura dettagliata verranno assegnati ruoli di autorizzazione alle risorse e verranno visualizzati i log.
 
@@ -28,22 +28,20 @@ In questa attività verrà assegnato il ruolo Collaboratore Macchina virtuale.
 
 5. Scegliere **Aggiorna** per aggiornare la pagina del gruppo di risorse, quindi fare clic sulla voce che rappresenta il nuovo gruppo di risorse creato.
 
-6. Fare clic sul pannello **Controllo di accesso (IAM)** e quindi passare alla scheda **Ruoli**. Scorrere il numero elevato di definizioni di ruolo disponibili. Usare le icone di informazioni per avere un'idea delle autorizzazioni di ogni ruolo. Sono anche disponibili informazioni sul numero di utenti e gruppi assegnati a ogni ruolo.
+6. Fare clic sul pannello **Controllo di accesso (IAM)** e quindi passare alla scheda **Ruoli**. Scorrere il numero elevato di definizioni dei ruoli disponibili. Usare le icone di informazioni per avere un'idea delle autorizzazioni di ogni ruolo. Sono anche disponibili informazioni sul numero di utenti e gruppi assegnati a ogni ruolo.
 
-    ![Screenshot del pannello Ruoli di IAM. Sono visualizzati i ruoli Proprietario, Collaboratore e Lettore.](../images/1501.png)
+![immagine](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
-7. Passare alla scheda **Assegnazioni di ruolo** del pannello **myRGRBAC - Controllo di accesso (IAM)**, fare clic su **+ Aggiungi** e quindi fare clic su **Aggiungi assegnazione di ruolo**. Assegnare il ruolo Collaboratore Macchina virtuale al proprio account utente, quindi fare clic su **Salva**. 
+7. Passare alla scheda **Assegnazioni di ruolo** del pannello **myRGRBAC - Controllo di accesso (IAM)**, fare clic su **+ Aggiungi** e quindi fare clic su **Aggiungi assegnazione di ruolo**. Cercare il ruolo Virtual Machine Contributor e selezionarlo. Passare alla scheda "Membri" e assegnare l'accesso a: Utente, gruppo o entità servizio. Quindi fare clic su + Selezionare membri e digitare il proprio nome nella funzione di ricerca popup e premere "seleziona". Quindi premere "Verifica e assegna"
 
-    | Impostazione | Valore |
-    | -- | -- |
-    | Ruolo | **Collaboratore Macchina virtuale** |
-    | Assegnare l'accesso a | **utente, gruppo o entità servizio** |
-    | Selezionare | **Aggiungi account utente** |
+    
+    ![immagine](https://user-images.githubusercontent.com/89808319/144266255-3a0f8574-9358-4c21-8f95-3503747e77c8.png)
+
  
 
     **Nota:** il ruolo Collaboratore Macchina virtuale consente di gestire le macchine virtuali, ma non di accedere al relativo sistema operativo né di gestire la rete virtuale e l'account di archiviazione a cui sono connesse.
 
-    ![Screenshot della pagina Aggiungi assegnazione di ruolo compilata con le informazioni necessarie.](../images/1502.png)
+  
 
 8. Scegliere **Aggiorna** per aggiornare la pagina Assegnazioni di ruolo e verificare che il proprio account utente sia ora indicato come Collaboratore Macchina virtuale. 
 
@@ -65,5 +63,5 @@ In questa attività verrà visualizzato il log attività per verificare l'assegn
 
 Congratulazioni! È stato creato un gruppo di risorse, gli è stato assegnato un ruolo di accesso e sono stati visualizzati i log attività. 
 
-**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse, quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
+**Nota**: per evitare costi aggiuntivi, è possibile rimuovere questo gruppo di risorse. Cercare e selezionare il gruppo di risorse, quindi fare clic su **Elimina gruppo di risorse**. Verificare il nome del gruppo di risorse e quindi fare clic su **Elimina**. Monitorare la pagina **Notifiche** per verificare l'avanzamento dell'eliminazione.
 
