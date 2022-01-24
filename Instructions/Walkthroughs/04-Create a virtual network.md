@@ -86,7 +86,7 @@ In questa attività verrà testata la capacità delle macchine virtuali di comun
 
 6. Durante il processo di accesso, è possibile che venga visualizzato un avviso relativo al certificato. Fare clic su **Sì** per creare la connessione e connettersi alla VM distribuita. La connessione dovrebbe essere stabilita correttamente. Chiudere le finestre di Windows Server e della dashboard che si aprono. Si dovrebbe vedere lo sfondo blu di Windows. Ora ci si trova nella macchina virtuale.
 
-7. nella macchina virtuale appena creata, disabilitare il firewall pubblico e privato aprendo il menu Start > Impostazioni > Rete e Internet > Windows Firewall.
+7. In **entrambe** le macchine virtuali appena create connettersi tramite RDP e disabilitare il firewall pubblico e privato aprendo il menu Start > Impostazioni > Rete e Internet > Windows Firewall.
 
 8. Aprire PowerShell nella macchina virtuale. A tale scopo fare clic sul pulsante **Start**, digitare **PowerShell** nella casella Cerca, quindi fare clic con il pulsante destro del mouse su **Windows PowerShell** e scegliere **Esegui come amministratore**.
 
